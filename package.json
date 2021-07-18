@@ -1,0 +1,30 @@
+{
+    "name": "school",
+    "version": "1.0.0",
+    "description": "School Management Software Backend",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "Prakash Kumar",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "express-validator": "^6.8.0",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "mysql2": "^2.2.5",
+        "nodemailer": "^6.4.17",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "randomstring": "^1.1.5",
+        "sequelize": "^6.3.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
